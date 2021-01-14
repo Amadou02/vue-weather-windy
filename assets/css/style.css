@@ -1,0 +1,14 @@
+html, body {
+    min-height: 100%;
+}
+body {
+    background: linear-gradient(#5681A6 30%, #8BB4D9 90%) no-repeat;
+    color: #FFF;
+}
+
+input {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    color: black;
+}

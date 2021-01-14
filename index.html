@@ -44,7 +44,7 @@
                     <div class="row">
                         <div class="col-md-3 border-right">
                             <!--Title-->
-                            <h4 class="card-title text-dark text-center">Humidité</h4>
+                            <h4 class="card-title  text-center">Humidité</h4>
                             <!--Text-->
                             <p class="text-center">
                                 {{ info.main.humidity }}%
@@ -52,7 +52,7 @@
                         </div>
                         <div class="col-md-3  border-right">
                             <!--Title-->
-                            <h4 class="card-title text-dark text-center">Vent</h4>
+                            <h4 class="text-center">Vent</h4>
                             <!--Text-->
                             <p class="text-center">
                                 <!-- Conversion vitesse de m/s en km/h -->
@@ -61,7 +61,7 @@
                         </div>
                         <div class="col-md-3 border-right">
                             <!--Title-->
-                            <h4 class="text-dark">Températures</h4>
+                            <h4>Températures</h4>
                             <!--Text-->
                             <p class="d-flex justify-content-between">
                                 <!-- arrondir la valeur à l'entier supérieur -->
@@ -71,7 +71,7 @@
                         </div>
                         <div class="col-md-3">
                             <!--Title-->
-                            <h4 class="card-title text-dark">Lever et coucher de soleil</h4>
+                            <h4>Lever et coucher de soleil</h4>
                             <!--Text-->
                             <p class="d-flex flex-column">
                                 <span class="d-flex justify-content-between"><i class="wi wi-sunrise"></i><span>{{new Date(info.sys.sunrise * 1000).toLocaleTimeString()}}</span></span>
